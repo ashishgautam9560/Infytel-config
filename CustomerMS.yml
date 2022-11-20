@@ -5,4 +5,8 @@ spring:
 feign:
   client:
     plan-service-url: http://localhost:8082
-    friendfamily-service-url: http://localhost:8084
+   # friendfamily-service-url: http://localhost:8084
+    
+friendfamilyServiceClient:
+  ribbon:
+    listOfServers: http://localhost:8084, http://localhost:8085
