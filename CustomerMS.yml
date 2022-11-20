@@ -5,10 +5,3 @@ spring:
 client:
     plan-service-url: http://localhost:8082/plan
     friendfamily-service-url: http://localhost:8084
-    
-customerRibbon:
-  ribbon:
-    eureka:
-      enabled: false
-      
-    listOfServers: http://localhost:8084, http://localhost:8085
